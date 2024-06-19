@@ -1,0 +1,48 @@
+css
+Copy code
+body {
+    background-color: #your-background-color; /* Replace with the background color from Figma */
+    font-family: 'Your Font Family', sans-serif; /* Replace with the font family from Figma */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: black; /* Replace with the text color from Figma */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: green; /* Replace with button background color from Figma */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: yellow; /* Replace with hover background color from Figma */
+    color: black;
+}
