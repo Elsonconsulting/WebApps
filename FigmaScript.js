@@ -1,5 +1,4 @@
-javascript
-Copy code
+
 document.getElementById('clearBtn').addEventListener('click', function() {
     document.getElementById('figmaForm').reset();
 });
